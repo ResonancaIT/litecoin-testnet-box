@@ -1,4 +1,4 @@
-LITECOIND=litecoind
+LITECOIND=litecoin-cli
 S1_FLAGS=
 S2_FLAGS=
 S1=$(LITECOIND) -datadir=1 $(S1_FLAGS)
