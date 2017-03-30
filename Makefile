@@ -42,5 +42,5 @@ stop:
 	$(BITCOINCLI) $(B2) stop
 
 clean:
-	find 1/regtest/* -not -name 'server.*' -delete
-	find 2/regtest/* -not -name 'server.*' -delete
+	rm -rf 1/test*
+	rm -rf 2/test*
