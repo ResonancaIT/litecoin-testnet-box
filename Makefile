@@ -42,5 +42,5 @@ stop:
 	$(BITCOINCLI) $(B2) stop
 
 clean:
-	rm -rf 1/test*
-	rm -rf 2/test*
+	rm -rf 1/regtest*
+	rm -rf 2/regtest*
